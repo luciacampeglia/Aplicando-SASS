@@ -1,0 +1,14 @@
+h5{
+    color: map-get($color,texto)
+}
+/* Carousel */
+.carousel{
+    @extend %center;
+    width: 900px;
+    
+}
+.carousel-item img{
+    border-radius: 15px;
+    width: 100% vw;
+    height: 500px;
+}

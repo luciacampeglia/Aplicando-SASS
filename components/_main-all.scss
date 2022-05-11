@@ -1,0 +1,33 @@
+h4{ 
+    text-decoration: overline;
+    color: map-get($color, acento);   
+}
+h5{
+    color: map-get($color, texto);
+}
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0; 
+       
+}
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+p{
+    @include texto;
+    
+}
+
+@media only screen and (max-width:768px){
+    .carousel{
+        width: 360px;
+    }
+    .carousel-item img{
+        height: 300px;
+    }
+    
+}

@@ -1,13 +1,21 @@
+
 .navbar{
-    background-color: #fff45e;
+    background-color: map-get($color,navbar);
 }
 .nav-item{
     & a:hover{
         transform: scale(1.1);
     }
-    .dropdown{
-       .menu{
-           background-color: #fdff83;
-       } 
+    .dropdown-menu{
+        
+           background-color: map-get($color,dropdown); 
     }
+}
+.active{ 
+    color: map-get($color,acento);
+    font-weight: bold;
+}
+h4{ 
+    text-decoration: overline;
+    color: map-get($color,acento);   
 }
